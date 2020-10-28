@@ -1,0 +1,89 @@
+
+/* General Selectors */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+    margin: 10px 5px;
+    width: auto 50%;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: small;
+    text-align: center;
+}
+
+p {
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+ul {
+    margin: 5px auto;
+}
+
+li {
+    list-style: inside;
+    padding: 5px auto;
+    margin: 5px auto;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: auto;
+    
+}
+
+
+nav a {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+
+/* Classes */
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+    color: azure;
+}
+
+.about-me {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.title {
+    font-weight: bold;
+}
+
